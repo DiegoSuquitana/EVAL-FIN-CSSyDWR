@@ -1,0 +1,156 @@
+body{
+	font-family: "Dancing Script";
+}
+
+header {
+	background-color: #5b7989;
+	
+	padding: 1px 30px 40px
+}
+
+header h1{
+	color: white;
+  	text-shadow: 2px 3px 4px #02010a;
+	  display: inline;
+	  
+}
+
+header nav{
+	float:right;
+}
+
+.contenedor{
+	padding: 10px 0px;
+	background-color: #5b7989;
+    -webkit-border-radius: 10px;
+}
+
+#menu-principal a {
+	color: white;
+	text-decoration: none;
+}
+
+#menu-principal ul {
+	list-style:none;
+}
+
+#menu-principal li {
+	display: inline;
+}
+
+#menu-principal nav{
+	float:left;
+}
+
+#ImgCentral{
+  text-align: center;
+  padding:20px; 
+}
+
+#contenido1 {
+	background-color: #82c3a6;
+}
+
+.contenedorFlex{
+	display:flex;
+	flex-flow:row wrap;
+}
+
+#contenido2 {
+	background-color: #d5c75f;
+	border: 1px solid #d5c75f;
+	padding: 30px;
+}
+
+.img1{
+	width: 70%;
+	-webkit-filter: drop-shadow(2px #02010a);  
+}
+
+.Img2:hover{
+	transform: rotate(10deg);
+	box-shadow: 2px 2px 2px 2px #82c3a6 ;
+	transition-duration: 2s;
+	border: 2px solid#82c3a6;
+}
+
+.Img3:hover{
+	transform: translate(20px,-5px);
+	box-shadow: 2px 2px 2px 2px #82c3a6 ;
+	transition-duration: 2s;
+	border: 2px solid#82c3a6;
+}
+
+#ImgSecundaria{
+  text-align: center;
+
+}
+
+#footer {
+	background-color: #c6d5c5;
+}
+
+.fcontenedorFlex{
+	display:flex;
+	flex-flow:row wrap;
+}
+
+@media (min-width: 900px) {
+	.fcontenedorFlex{
+		width: 100%;
+	}
+	.fcolm1 {
+		width: 25%;
+	}
+	.fcolm2 {
+		width: 25%;
+	}
+	.fcolm3 {
+		width: 25%;
+	}
+	.fcolm4 {
+		width: 25%;
+	}
+}
+
+@media (max-width: 900px) {
+	.contenedorFlex{
+		width: 100%;
+	}
+	.fcolm1 {
+		width: 100%;
+	}
+	.fcolm2 {
+		width: 100%;
+	}
+	.fcolm3 {
+		width: 100%;
+	}
+	.fcolm4 {
+		width: 100%;
+	}
+}
+
+@media (min-width: 900px) {
+	.contenedorFlex{
+		width: 100%;
+	}
+	.colm1, .img2 {
+		width: 50%;
+	}
+	.colm2, .img3{
+		width: 50%;
+	}
+}
+
+@media (max-width: 900px) {
+	.contenedorFlex{
+		width: 100%;
+	}
+	.colm1, .img2 {
+		width: 100%;
+	}
+	.colm2, .img3{
+		width: 100%;
+	}
+}

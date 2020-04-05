@@ -1,5 +1,23 @@
 body{
 	font-family: "Dancing Script";
+	background-color: #02010a;
+	animation-name: Animation-Slidein;
+	animation-duration: 1s;
+}
+
+@keyframes Animation-Slidein {
+	0%{
+		
+		margin-top: 150%;
+	}
+	60%{
+		
+		margin-top: -5%;
+	}
+	100%{
+		
+		margin-top: 0%;
+	}
 }
 
 .menuPFlex{
@@ -40,7 +58,7 @@ img {
 
 header {
 	background-color: #5b7989;	
-	padding: 1px 30px 40px
+	padding: 1px 30px 10px;
 }
 
 header h1{

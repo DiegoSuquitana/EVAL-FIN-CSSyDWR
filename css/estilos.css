@@ -2,9 +2,12 @@ body{
 	font-family: "Dancing Script";
 }
 
+img {
+	text-shadow: 2px 3px 4px #02010a;
+}
+
 header {
-	background-color: #5b7989;
-	
+	background-color: #5b7989;	
 	padding: 1px 30px 40px
 }
 
@@ -164,6 +167,18 @@ header nav{
 	
 }
 
+.Img8{
+	-webkit-filter: blur(10px);
+}
+
+.Img9, .Img11, .Img13 {
+	-webkit-filter: grayscale(100%);
+}
+
+.Img10 {
+	-webkit-filter: sepia(90%);
+}
+
 #GaleriaPaisaje{
 	text-align: center;
 	padding: 2px;
@@ -216,20 +231,27 @@ header nav{
 	}
 	.fGPcoml1 {
 		width: 100%;
+		padding: 10px;
 	}
 	.fGPcoml2 {
 		width: 100%;
+		padding: 10px;
 	}
 	.fGPcoml3 {
 		width: 100%;
+		padding: 10px;
 	}
 	.fGPcoml4 {
 		width: 100%;
+		padding: 10px;
 	}
 	.fGPcoml5 {
 		width: 100%;
+		padding: 10px;
 	}
 	.fGPcoml6 {
 		width: 100%;
+		padding: 10px;
 	}
+
 }

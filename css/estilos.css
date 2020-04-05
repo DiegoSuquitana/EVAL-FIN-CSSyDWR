@@ -3,7 +3,24 @@ body{
 	background-color: #02010a;
 	animation-name: Animation-Slidein;
 	animation-duration: 1s;
+
+	display: flex;
+	flex-flow:row wrap;
+    justify-content: center;
 }
+
+@media screen and (min-width: 900px) {
+    .contenido {
+        width: 900px;
+    }
+}
+
+@media screen and (max-width: 899px) {
+    .contenido {
+        width: 100%;
+	}
+}
+
 
 @keyframes Animation-Slidein {
 	0%{
@@ -53,7 +70,9 @@ body{
 }
 
 img {
-	text-shadow: 2px 3px 4px #02010a;
+	
+	-webkit-filter: drop-shadow(2px 2px 2px #02010a); 
+	filter: drop-shadow(2px 2px 2px #02010a);
 }
 
 header {
@@ -68,10 +87,16 @@ header h1{
 	  
 }
 
+.contenido{
+	padding: 10px 0px;
+	background-color: #5b7989;
+	-webkit-border-radius: 10px;	
+}
+
 .contenedor{
 	padding: 10px 0px;
 	background-color: #5b7989;
-    -webkit-border-radius: 10px;
+	-webkit-border-radius: 10px;	
 }
 
 #menu-principal a {
@@ -96,11 +121,6 @@ header h1{
 	background-color: #82c3a6;
 }
 
-.contenedorFlex{
-	display:flex;
-	flex-flow:row wrap;
-}
-
 #contenido2 {
 	background-color: #d5c75f;
 	border: 1px solid #d5c75f;
@@ -109,7 +129,6 @@ header h1{
 
 .img1{
 	width: 70%;
-	-webkit-filter: drop-shadow(2px #02010a);  
 }
 
 .Img2:hover{
@@ -145,7 +164,8 @@ header h1{
 		width: 100%;
 	}
 	.fcolm1 {
-		width: 25%;
+		width: 23%;
+		padding-left: 15px;
 	}
 	.fcolm2 {
 		width: 25%;
@@ -164,16 +184,29 @@ header h1{
 	}
 	.fcolm1 {
 		width: 100%;
+		padding: 20px;
+
 	}
 	.fcolm2 {
 		width: 100%;
+		padding: 20px;
+
 	}
 	.fcolm3 {
 		width: 100%;
+		padding: 20px;
+
 	}
 	.fcolm4 {
 		width: 100%;
+		padding: 20px;
+
 	}
+}
+
+.contenedorFlex{
+	display:flex;
+	flex-flow:row wrap;
 }
 
 @media (min-width: 900px) {

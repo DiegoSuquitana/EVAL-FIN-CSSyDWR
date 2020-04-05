@@ -2,6 +2,38 @@ body{
 	font-family: "Dancing Script";
 }
 
+.menuPFlex{
+	display:flex;
+	flex-flow:row wrap;
+}
+
+@media (min-width: 900px) {
+	.menuPFlex{
+		width: 100%;
+	}
+	.menuP1 {
+		width: 50%;
+	}
+	.menuP2 {
+		width: 50%;	
+		text-align: right;
+	}
+}
+
+@media (max-width: 900px) {
+	.menuPFlex{
+		width: 100%;
+	}
+	.menuP1 {
+		width: 100%;
+		text-align: center;
+	}
+	.menuP2 {
+		width: 100%;
+		text-align: center;
+	}
+}
+
 img {
 	text-shadow: 2px 3px 4px #02010a;
 }
@@ -16,10 +48,6 @@ header h1{
   	text-shadow: 2px 3px 4px #02010a;
 	  display: inline;
 	  
-}
-
-header nav{
-	float:right;
 }
 
 .contenedor{
@@ -39,10 +67,6 @@ header nav{
 
 #menu-principal li {
 	display: inline;
-}
-
-#menu-principal nav{
-	float:left;
 }
 
 #ImgCentral{

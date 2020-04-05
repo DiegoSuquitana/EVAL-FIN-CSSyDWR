@@ -114,7 +114,7 @@ header nav{
 }
 
 @media (max-width: 900px) {
-	.contenedorFlex{
+	.fcontenedorFlex{
 		width: 100%;
 	}
 	.fcolm1 {
@@ -157,4 +157,79 @@ header nav{
 
 .img4, .img5, .img6{
 	width: 8%;
+}
+
+.Img8, .Img9, .Img10, .Img11, .Img12, .Img13 {
+	width: 70%;
+	
+}
+
+#GaleriaPaisaje{
+	text-align: center;
+	padding: 2px;
+}
+
+.fGaleriaPaisajeFlex{
+	display:flex;
+	flex-flow:row wrap;
+}
+
+#contenido3 {
+	background-color: #d5c75f;
+	border: 1px solid #d5c75f;
+	padding: 30px;
+}
+
+@media (min-width: 900px) {
+	.fGaleriaPaisajeFlex{
+		width: 100%;
+	}
+	.fGPcoml1 {
+		width: 30%;
+		padding: 10px;
+	}
+	.fGPcoml2 {
+		width: 30%;
+		padding: 10px;
+	}
+	.fGPcoml3 {
+		width: 30%;
+		padding: 10px;
+	}
+	.fGPcoml4 {
+		width: 30%;
+		padding: 10px;
+	}
+	.fGPcoml5 {
+		width: 30%;
+		padding: 10px;
+	}
+	.fGPcoml6 {
+		width: 30%;
+		padding: 10px;
+	}
+}
+
+@media (max-width: 900px) {
+	.fGaleriaPaisajeFlex{
+		width: 100%;
+	}
+	.fGPcoml1 {
+		width: 100%;
+	}
+	.fGPcoml2 {
+		width: 100%;
+	}
+	.fGPcoml3 {
+		width: 100%;
+	}
+	.fGPcoml4 {
+		width: 100%;
+	}
+	.fGPcoml5 {
+		width: 100%;
+	}
+	.fGPcoml6 {
+		width: 100%;
+	}
 }

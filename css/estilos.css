@@ -6,7 +6,7 @@ body{
 
 	display: flex;
 	flex-flow:row wrap;
-    justify-content: center;
+	justify-content: center;
 }
 
 @media screen and (min-width: 900px) {
@@ -88,13 +88,7 @@ header h1{
 }
 
 .contenido{
-	padding: 10px 0px;
-	background-color: #5b7989;
-	-webkit-border-radius: 10px;	
-}
-
-.contenedor{
-	padding: 10px 0px;
+	padding-top: 10px;
 	background-color: #5b7989;
 	-webkit-border-radius: 10px;	
 }
@@ -110,6 +104,8 @@ header h1{
 
 #menu-principal li {
 	display: inline;
+	text-decoration: underline;
+	text-decoration-color: white;
 }
 
 #ImgCentral{
@@ -152,6 +148,7 @@ header h1{
 
 #footer {
 	background-color: #c6d5c5;
+	-webkit-border-radius: 0px 0px 10px 10px;
 }
 
 .fcontenedorFlex{
